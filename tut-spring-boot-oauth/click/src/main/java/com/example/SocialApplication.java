@@ -32,6 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SocialApplication extends WebSecurityConfigurerAdapter {
+	
 
 	@GetMapping("/user")
 	public Map<String, Object> user(@AuthenticationPrincipal OAuth2User principal) {
@@ -54,10 +55,12 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 	}
 
 	public static void main(String[] args) {
+
 		System.out.println("simple message")
 		
 		System.out.println("simple message")	System.out.println("simple message")	System.out.println("simple message")
 		System.out.println("simple message")
+
 		SpringApplication.run(SocialApplication.class, args);
 	}
 
