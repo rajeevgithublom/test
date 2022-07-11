@@ -57,9 +57,10 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 	public static void main(String[] args) {
 	//	System.out.println("simple message")
 	//		System.out.println("creating conflict")
+ //			System.out.println(""simple ")
+		//		System.out.println(" creating")
 		
-		//	System.out.println(" message")
-		//		System.out.println(" conflict")
+
 		SpringApplication.run(SocialApplication.class, args);
 	}
 
