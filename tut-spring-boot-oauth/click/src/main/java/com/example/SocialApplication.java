@@ -54,6 +54,7 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 	}
 
 	public static void main(String[] args) {
+		//to create conflict 
 		SpringApplication.run(SocialApplication.class, args);
 	}
 
