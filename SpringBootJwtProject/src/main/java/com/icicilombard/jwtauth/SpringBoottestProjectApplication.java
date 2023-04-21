@@ -8,7 +8,7 @@ public class SpringBoottestProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBoottestProjectApplication.class, args);
-		System.out.println("added a line to check the git ");
+		
 		
 	}
 
