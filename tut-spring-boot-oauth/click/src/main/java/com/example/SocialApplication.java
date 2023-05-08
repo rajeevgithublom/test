@@ -56,10 +56,10 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 
 	public static void main(String[] args) {
 
-		System.out.println("simple message")
+		System.out.println("simple message");
 		
-		System.out.println("simple message")	System.out.println("simple message")	System.out.println("simple message")
-		System.out.println("simple message")
+		System.out.println("simple message");	System.out.println("simple message");	System.out.println("simple message");
+		System.out.println("simple message");
 
 		SpringApplication.run(SocialApplication.class, args);
 	}
