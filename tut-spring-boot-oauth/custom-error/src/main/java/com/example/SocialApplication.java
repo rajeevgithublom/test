@@ -130,6 +130,8 @@ public class SocialApplication extends WebSecurityConfigurerAdapter {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SocialApplication.class, args);
+	System.out.println("changes in main method");
+	
 	}
 
 }
